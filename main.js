@@ -39,13 +39,14 @@ function my_keydown(e)
 	
 		}
 	if(keyPressed >=48 && keyPressed<=57)
-		{
+	{
 			numberkey();
 			document.getElementById("d1").innerHTML="You  pressed number  key";
 			console.log("numberKey");
 	
 		}
-	if(keyPressed >=37 && keyPressed<=40){
+	if(keyPressed >=37 && keyPressed<=40)
+	{
 			arrowkey();
 			document.getElementById("d1").innerHTML="You presse arrow key";
 			console.log("arrowKey");
@@ -58,10 +59,10 @@ function my_keydown(e)
 			console.log("specialkey");
 	
 		}
-	else{
-		otherkey();
-		document.getElementById("d1").innerHTML="You pressed symbol or other key";
-	}
+// 	else{
+// 		otherkey();
+// 		document.getElementById("d1").innerHTML="You pressed symbol or other key";
+// 	}
 }
 
 function aplhabetkey()
