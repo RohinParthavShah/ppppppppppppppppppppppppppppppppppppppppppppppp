@@ -45,12 +45,13 @@ function my_keydown(e)
 			console.log("numberKey");
 	
 		}
-	if(keyPressed >=37 && keyPressed<=40)
+	if(keyPressed >=37 && keyPressed<=40){
 			arrowkey();
 			document.getElementById("d1").innerHTML="You presse arrow key";
 			console.log("arrowKey");
 	
-		}if(keyPressed == 17 || keyPressed == 18  ||   keyPressed == 27) 
+		}
+	if(keyPressed == 17 || keyPressed == 18  ||   keyPressed == 27) 
 		{
 			specialkey();
 			document.getElementById("d1").innerHTML="You pressed special key";
